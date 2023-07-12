@@ -1,0 +1,47 @@
+.myBG {
+   height: 100vh; /*1 layar itu 100 virtual height pokonya di sebuah hal browser 100vh full layar */
+   background: url("../assets/images/bg/biosko.jpg");
+   background-size: cover;
+}
+
+.intro {
+   height: 300px;
+   display: flex;
+   justify-content: end;
+   align-items: end;
+}
+
+.title {
+   font-size: 3rem;
+   align-items: center;
+   justify-content: center;
+   line-height: 1;
+   font-weight: 800;
+   text-shadow: 2px 2px black;
+   letter-spacing: 3px;
+}
+
+.trending {
+   height: auto;
+   background: url("../assets/images/bg/car.jpg");
+   background-size: cover;
+}
+
+.superhero {
+   height: auto;
+   background: url("../assets/images/bg/spiderman.jpg");
+   background-size: cover;
+}
+
+.movieWrapper {
+}
+
+.movieImage {
+   height: auto;
+   margin: 5px;
+   padding: 5px;
+}
+
+.images {
+   height: 450px;
+}
